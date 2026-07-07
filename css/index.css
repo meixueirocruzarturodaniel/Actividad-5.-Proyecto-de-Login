@@ -1,0 +1,10 @@
+body {
+    background-color: var(--yt-bg);
+    color: var(--yt-text);
+  
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
