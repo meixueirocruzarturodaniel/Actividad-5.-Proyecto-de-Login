@@ -1,193 +1,214 @@
-### <div align="center">
+<div align="center">
 
-### &#x20; <table style="width:100%; border:none; background-color:transparent;">
+<table style="width:100%; border:none; background-color:transparent;">
+  <tr>
+    <td style="width:20%; text-align:left; border:none;">
+      <img src="img/iz.png" alt="Logo SEP/TecNM" width="120">
+    </td>
+    <td style="width:60%; text-align:center; border:none;">
+      <h2>TECNOLÓGICO NACIONAL DE MÉXICO</h2>
+      <h3>INSTITUTO TECNOLÓGICO DE OAXACA</h3>
+    </td>
+    <td style="width:20%; text-align:right; border:none;">
+      <img src="img/de.png" alt="Logo ITO" width="100">
+    </td>
+  </tr>
+</table>
 
-### &#x20;   <tr>
+<br>
 
-### &#x20;     <td style="width:20%; text-align:left; border:none;">
+<p><b>CARRERA:</b></p>
+<p>INGENIERÍA EN SISTEMAS COMPUTACIONALES</p>
 
-### &#x20;       <img src="img/iz.png" alt="Logo SEP/TecNM" width="120">
+<br>
 
-### &#x20;     </td>
+<p><b>MATERIA:</b> PROGRAMACIÓN WEB</p>
 
-### &#x20;     <td style="width:60%; text-align:center; border:none;">
+<br>
 
-### &#x20;       <h2>TECNOLÓGICO NACIONAL DE MÉXICO</h2>
+<p><b>PRESENTA:</b></p>
+<p><b>MEIXUEIRO CRUZ ARTURO DANIEL</b></p>
+<p><b>MACUIXTLE GAYTAN MIGUEL ANGEL</b></p>
 
-### &#x20;       <h3>INSTITUTO TECNOLÓGICO DE OAXACA</h3>
+<br>
 
-### &#x20;     </td>
+<p><b>NOMBRE DEL CATEDRÁTICO:</b> MARTINEZ NIETO ADELINA</p>
 
-### &#x20;     <td style="width:20%; text-align:right; border:none;">
+<br>
 
-### &#x20;       <img src="img/de.png" alt="Logo ITO" width="100">
+<p><b>ACTIVIDAD:</b> Sistema de Login y Dashboard con Validaciones</p>
 
-### &#x20;     </td>
+<br><br>
 
-### &#x20;   </tr>
+</div>
 
-### &#x20; </table>
+<div align="right">
+  <p>07 DE JULIO DEL 2026</p>
+</div>
 
-### <br>
+# Sistema de Login y Captura de Alumnos
 
-### <p><b>CARRERA:</b></p>
+Este proyecto consiste en un sistema web con login, registro y un dashboard para la captura de información de alumnos, incluyendo validaciones en frontend.
 
-### &#x20; <p>INGENIERÍA EN SISTEMAS COMPUTACIONALES</p>
+## Explicación y Documentación
 
-### <br>
+El proyecto utiliza CSS con variables de diseño inspiradas en YouTube en la versión oscura.
 
-### <p><b>MATERIA:</b> PROGRAMACIÓN WEB</p>
+**Flujo del sistema:**
 
-### <br>
+- El usuario accede a `login.html` o `registro.html`.
+- Tras autenticación exitosa (validaciones de correo y contraseña), se guarda el email en `sessionStorage` y redirige a `index.html`.
+- En `index.html`, se recupera el usuario de `sessionStorage` y se muestra en el navbar.
+- El sidebar permite navegar a la sección de Captura de Alumnos.
+- El formulario de captura incluye validaciones para nombre, correo, contraseña, número de control (6 dígitos) y fecha de nacimiento.
+- Al enviar, se calcula la edad y se muestra un modal indicando si el alumno es mayor o menor de edad.
 
-### <p><b>PRESENTA:</b></p>
+**Métodos principales en `login.js`:**
 
-### &#x20; <p><b>MEIXUEIRO CRUZ ARTURO DANIEL</b></p>
+- `validarCorreo()`, `validarPassword()`, `alfanumerico()`, `validarLongitud()`, `calcularEdad()`, `esMayorDeEdad()`, `validarFechaLogica()`, `capitalizarNombres()`.
+- Manejo de eventos para formularios, blur validations y submit.
+- Gestión de sesión con `sessionStorage`.
 
-### &#x20; <p><b>MACUIXTLE GAYTAN MIGUEL ANGEL</b></p>
+## Proceso de Creación
 
-### <br>
+### 1. LOGIN
 
-### <p><b>NOMBRE DEL CATEDRÁTICO:</b> MARTINEZ NIETO ADELINA</p>
+Código del login simple (aún no funciona porque los JS no han sido creados, pero los referenciamos para ahorrar tiempo, lo mismo con los estilos).
 
-### <br>
+![LOGIN](img/1CODELOGIN.png)
 
-### <p><b>ACTIVIDAD:</b> Sistema de Login y Dashboard con Validaciones</p>
+Pantalla del login funcionando en el navegador:
 
-### <br><br>
+![LOGINf](img/1LOGIN.png)
 
-### </div>
+---
 
-### <div align="right">
+### 2. CODE CSS LOGIN
 
-### &#x20; <p>07 DE JULIO DEL 2026</p>
+Únicamente los inicios del CSS para el estilo del login (colores y tipo de letra).
 
-### </div>
+![CODE LOGIN](img/2CODEDELCSSPARAELLOGIN.png)
 
-### 
+### 3. PANTALLA CON LOS LABELS
 
-### \# Sistema de Login y Captura de Alumnos
+Código para los labels (correo y contraseña), aún sin funcionalidad.
 
-### 
+![PANTALLA CON LOS LABELS](img/3codeconloslabel.png)
 
-### Este proyecto consiste en un sistema web con login, registro y un dashboard para la captura de información de alumnos, incluyendo validaciones en frontend.
+Labels en acción:
 
-### 
+![PANTALLA CON LOS LABELS](img/3pantallaconloslabels.png)
 
-### \## Explicación y Documentación
+### 4. ESTILOS PARA EL CSS
 
-### 
+![ESTILOS PARA EL CSS](img/4estilosparaelcss.png)
 
-### El proyecto utiliza CSS con variables de diseño inspiradas en YouTube en la version obscura. 
+### 5. ESTILOS PARA LOS BOTONES Y LABELS
 
-### 
+![ESTILOS PARA LOS BOTONES Y LABELS](img/5estilosparalosbotonesylabbels.png)
 
-### \*\*Flujo del sistema:\*\*
+### 6. CREACIÓN DEL JS PARA EL ACCESO
 
-### \- El usuario accede a `login.html` o `registro.html`.
+![CREACION DEL JS PARA EL ACCESO](img/6creaciondeljsparaelacceso.png)
 
-### \- Tras autenticación exitosa (validaciones de correo y contraseña), se guarda el email en `sessionStorage` y redirige a `index.html`.
+### 7. CREACIÓN DE BOTÓN PARA CREAR CUENTA
 
-### \- En `index.html`, se recupera el usuario de sessionStorage y se muestra en el navbar.
+![CREACION DE BOTON CREAR CUENTA](img/7creaciondebotonparacrearcuenta.png)
 
-### \- El sidebar permite navegar a la sección de Captura de Alumnos.
+### 8. CREACIÓN DE LOS ESTILOS PARA EL CSS
 
-### \- El formulario de captura incluye validaciones para nombre, correo, contraseña, número de control (6 dígitos) y fecha de nacimiento.
+![CREACION DE LOS ESTILOS PARA EL CSS](img/8creaciondelosestilosparaelcss.png)
 
-### \- Al enviar, se calcula la edad y se muestra un modal indicando si el alumno es mayor o menor de edad.
+### 9. CREACIÓN DE REGISTRO HTML
 
-### 
+![CREACION DE REGISTRO HTML](img/9creacionderegirstorhtml.png)
 
-### \*\*Métodos principales en `login.js`:\*\*
+### 10. CREACIÓN DE LA METODOLOGÍA EN EL JS
 
-### \- `validarCorreo()`, `validarPassword()`, `alfanumerico()`, `validarLongitud()`, `calcularEdad()`, `esMayorDeEdad()`, `validarFechaLogica()`, `capitalizarNombres()`.
+![CREACION DE LA METODOLOGIA EN EL JS](img/10creaciondelaeodoligaeneljs.png)
 
-### \- Manejo de eventos para formularios, blur validations y submit.
+### 11. OBTENCIÓN DE LAS FUNCIONES DE VALIDACIÓN
 
-### \- Gestión de sesión con sessionStorage.
+![FUNCIONES DE LA LIBRERIA](img/11funcionesvalidaciones.png)
 
-### 
+**Modificaciones:** Obtención de las funciones de validación de la librería creada en la actividad 2.
 
-### \## Proceso de Creación
+### 12. CREACIÓN DE LAS SECCIONES EN EL SIDEBAR
 
-### 
+![CREACION DEL SIDEBAR](img/12sidebariniciousuarios.png)
 
-### \### 1. LOGIN
+**Modificaciones:** Creamos la lógica para navegar en las secciones de inicio y la sección Usuarios, habilitamos el botón de salir.
 
-### &#x20;
+### 13. CREACIÓN DE LA SUBSECCIÓN DE CAPTURA
 
-### Codigo del login simple aun no funciona por que los js no han sido creados pero los referenciamos para ahorrar tiempo, lo mismo con los estilos
+![SUBSECCION CAPPTURA](img/13subseccionacciones.png)
 
-### 
+**Modificaciones:** Se construyó un submenú con formulario y mensajes de validación con `<span>`.
 
-### !\[LOGIN](img/1CODELOGIN.png)
+### 14. CREACIÓN DEL ESTILO PARA EL INDEX
 
-### 
+![CSS PARA SIDEBAR](img/14estiloparaelindex.png)
+![CSS PARA SIDEBAR](img/15estiloparaelindex.png)
+![CSS PARA SIDEBAR](img/16estiloparaelindex.png)
 
-### Pantalla del login funcionando en el navegador
+**Modificaciones:** Estilos para sidebar y secciones.
 
-### 
+### 15. CREACIÓN DEL ESTILO PARA EL SUBMENÚ
 
-### !\[LOGINf](img/1LOGIN.png)
+![CREACION DEL ESTILO PARA EL SUBMENU](img/17estiloparasubmenu.png)
 
-### 
+### 16. CREACIÓN DEL ESTILO PARA EL FORMULARIO
 
-### Login sin nada 
+![CREACION DEL CSS PARA EL FORM](img/18estiloformulario.png)
 
-### 
+### 17. CREACIÓN DEL ESTILO PARA EL MODAL
 
-### \### 2. CODE CSS LOGIN
+![CREACION DEL ESTILO PARA MODAL](img/19estiloventanamodal.png)
 
-### 
+### 18. CREACIÓN DE LOS BOTONES DE LAS SECCIONES
 
-### Unicamente los inicios del css para el estilo del login para los colores y tipo de letra que usara
+![CREACION DE BOTONES EN SECCIONES](img/20pantallaindex.png)
 
-### 
+**Modificaciones:** Eventos para botones Salir, Inicio, Usuario, Captura.
 
-### !\[CODE LOGIN](img/2CODEDELCSSPARAELLOGIN.png)
+### 19. CREACIÓN DE LAS CONSTANTES PARA LAS VALIDACIONES
 
-### 
+![CREACION DE CONSTANTES](img/22constantes.png)
 
-### 
+### 20. CREACIÓN DE LA LÓGICA PARA LAS ALERTAS DE SPAN
 
-### \### 3. PANTALLA CON LOS LABELS
+![CREACION DE ALERTAS SPAN](img/23funcionesspan.png)
 
-### 
+### 21. CREACIÓN DE LA FUNCIÓN PARA VALIDAR LOS DATOS
 
-### Codigo para los labels para poder poner las contraseñas y correo, aun sin funcion debido a que el js no esta hecho, todo esto pertenece a la fase de diseño
+![CONDICIONALES](img/24llamarfuncionesvalidar.png)
 
-### 
+### 22. CREACIÓN DE LA METODOLOGÍA DEL MODAL
 
-### !\[PANTALLA CON LOS LABELS](img/3codeconloslabel.png)
+![CONDICIONAL MODAL](img/25modaljs.png)
 
-### 
+## FLUJO COMPLETO DEL PROGRAMA
 
-### &#x20;
+**VENTANA FINAL DE LOGIN**  
+![loginf](img/1loginf.png)
 
-### Labels en accion
+**VENTANA FINAL DEL INDEX**  
+![INDEXf](img/2inicioindex.png)
 
-### 
+**MENSAJE DE ERROR EN FORMATO**  
+![ERRORf](img/3mensajespan.png)
 
-### !\[PANTALLA CON LOS LABELS l](img/3pantallaconloslabels.png)
+**FORMULARIO COMPLETAMENTE RELLENO**  
+![fORMULARIOLLENO](img/4camposrellenados.png)
 
-### 
+**MODAL EN ACCIÓN**  
+![MODf](img/5modal.png)
 
-### 
+**OPCIÓN PARA SALIR DEL FORMULARIO**  
+![SALIRf](img/6botonsalir.png)
 
-### \### 4. ESTILOS PARA EL CSS
+**VENTANA PARA REGISTRAR USUARIOS**  
+![INDEXf](img/7registrar.png)
 
-### 
-
-### CSS básico.  
-
-### 
-
-### !\[ESTILOS PARA EL CSS](img/4estilosparaelcss.png)
-
-### \### 5. ESTILOS PARA LOS BOTONES Y LABELS
-
-### 
-
-### Codigo para los botones y labels para que tengan mas formato  
-
-### 
+**REGLA PARA LA CONTRASEÑA**  
+![INDEXf](img/8validacionregistrar.png)
