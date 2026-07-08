@@ -91,68 +91,187 @@ Labels en accion
 CSS básico.  
 
 ![ESTILOS PARA EL CSS](img/4estilosparaelcss.png)
-
-
 ### 5. ESTILOS PARA LOS BOTONES Y LABELS
-**Antes:**  
-Botones sin estilo.  
 
-![ESTILOS PARA LOS BOTONES Y LABELS](img/5.png)
+Codigo para los botones y labels para que tengan mas formato  
 
-**Después:**  
-Botones accent color.
+![ESTILOS PARA LOS BOTONES Y LABELS](img/5estilosparalosbotonesylabbels.png)
 
-**Modificaciones:** Clases .btn-submit y estilos focus.
 
 ### 6. CREACION DEL JS PARA EL ACCESO
-**Antes:**  
-Sin JS funcional.  
 
-![CREACION DEL JS PARA EL ACCESO](img/6.png)
+Code del js para para poder permitirnos el acceso pidiendo el usuario y contraseña para poder acceder al index (aun no esta hecho el index)
 
-**Después:**  
-Lógica completa de login/registro.
+![CREACION DEL JS PARA EL ACCESO](img/6creaciondeljsparaelacceso.png)
 
-**Modificaciones:** Validaciones avanzadas.
 
 ### 7. CREACION DE BOTON PARA CREAR CUENTA
-**Antes:**  
-Sin enlace a registro.  
 
-![CREACION DE BOTON PARA CREAR CUENTA](img/7.png)
+Code con la metodologia para el boton para crear una cuenta que lleva a login html
 
-**Después:**  
-Link a registro.html.
+![CREACION DEL BOTON CREAR CUENTA](img/7creaciondebotonparacrearcuenta.png)
 
-**Modificaciones:** Página de registro integrada.
 
 ### 8. CREACION DE LOS ESTILOS PARA EL CSS
-**Antes:**  
+
 Estilos incompletos.  
 
-![CREACION DE LOS ESTILOS PARA EL CSS](img/8.png)
+![CREACION DE LOS ESTILOS PARA EL CSS](img/8creaciondelosestilosparaelcss.png)
 
-**Después:**  
-CSS para navbar, sidebar y modal.
 
-**Modificaciones:** Layout completo del dashboard.
 
 ### 9. CREACION DE REGISTRO HTML
-**Antes:**  
-Sin página de registro.  
 
-![CREACION DE REGISTRO HTML](img/9.png)
+Code para registrar correos
 
-**Después:**  
-Formulario de registro funcional.
+![CREACION DE REGISTRO HTML](img/9creacionderegirstorhtml.png)
 
-**Modificaciones:** Validaciones similares al login.
 
 ### 10. CREACION DE LA METODOLOGIA EN EL JS
+
+Metodologia en el js para el login 
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/10creaciondelaeodoligaeneljs.png)
+
+### 11. CREACION DE LAS FUNCIONES PARA LAS VALIDACIONES
 **Antes:**  
 Validaciones simples.  
 
-![CREACION DE LA METODOLOGIA EN EL JS](img/10.png)
+![CREACION DE LA METODOLOGIA EN EL JS](img/11funcionesvalidaciones.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 12. CREACION LAS SECCIONES EN EL SIDEBAR
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/12sidebariniciousuarios.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+
+### 13. CREACION LA SUBSECCION DE CAPTURA EN USUARIOS
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/13subseccionacciones.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 14. CREACION DEL ESTILO PARA EL INDEX
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/14estiloparaelindex.png)
+![CREACION DE LA METODOLOGIA EN EL JS](img/15estiloparaelindex.png)
+![CREACION DE LA METODOLOGIA EN EL JS](img/16estiloparaelindex.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 15. CREACION ESTILO PARA EL SUBMENU
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/17estiloparasubmenu.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 16. CREACION DEL ESTILO PARA EL FORMULARIO
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/18estiloformulario.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 17. CREACION DEL ESTILO PARA EL MODAL
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/19estiloventanamodal.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 18. CREACION DE LOS BOTONES DE LA SECCIONES
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/20pantallaindex.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 19. CREACION DE LAS CONSTANTES PARA LAS VALIDACIONES
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/22constantes.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 20. CREACION DE LA LOGICA PARA LAS ALERTAS DE SPAN
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/23funcionesspan.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 21. CREACION DE LA FUNCION PARA VALIDAR LOS DATOS
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/24llamarfuncionesvalidar.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 22. CREACION DE  LA METODOLOGIA DEL MODAL
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/25modaljs.png)
+
+**Después:**  
+Funciones completas para edad, control, etc.
+
+**Modificaciones:** Lógica del modal y cálculos.
+
+### 22. CREACION DEL MODAL EN EL INDEX
+**Antes:**  
+Validaciones simples.  
+
+![CREACION DE LA METODOLOGIA EN EL JS](img/25modalindex.png)
 
 **Después:**  
 Funciones completas para edad, control, etc.
